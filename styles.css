@@ -46,11 +46,13 @@ text.title {
 
 button {
     background-color: #3882F6;
-    max-width: 150px;
+    max-width: 120px;
     padding: 8px 16px;
     border-radius: 8px;
     border: 1px solid royalblue;
     color: white;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .introduction img {
@@ -120,3 +122,43 @@ button {
     align-self: flex-end;
 }
 
+/* css for part 4 */
+.part4 {
+    display: flex;
+    margin: 5% 10%;
+    background-color: #3882F6;
+    padding: 3% 10%;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header1 {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.header2 {
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.part4 button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    justify-self: flex-end;
+    
+}
+
+/* css for footer */
+.footer {
+    background-color: #1f2937;
+    padding: 3%;
+    text-align: center;
+}
+
+.footer text {
+    color: #E5E7EB;
+    font-size: 20px;
+}
