@@ -1,4 +1,7 @@
-
+body {
+    height: 100%;
+    margin: 0;
+}
 /*css for part 1 of html */
 .part1 {
     background-color: #1f2937;
