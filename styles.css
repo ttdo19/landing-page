@@ -1,3 +1,4 @@
+
 /*css for part 1 of html */
 .part1 {
     background-color: #1f2937;
@@ -94,5 +95,28 @@ button {
     color: #152937;
 }
 
+/* css for part 3 */
+.part3 {
+    background-color: #E5E7EB;
+    padding: 10% 25% 7%;
+    display: flex;
+    flex-direction: column;
+}
 
+.quote {
+    font-size: 36px;
+    font-style: italic;   
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 100;
+    color: #1F2937;
+    
+
+}
+
+.author {
+    font-size: 25px;  
+    font-weight: 700;
+    color: black;
+    align-self: flex-end;
+}
 
