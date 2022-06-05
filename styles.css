@@ -1,0 +1,58 @@
+.part1 {
+    background-color: #1f2937;
+    padding: 2% 15%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px; 
+}
+
+ul a, .info text {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.links {
+    margin-left: auto;
+}
+
+.introduction {
+    display: flex;
+    gap: 60px; 
+}
+
+.info {
+    display: flex; 
+    flex-direction: column;
+}
+
+text.title {
+    font-size: 48px; 
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    max-width: 150px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+img {
+    resize: both;
+}
+
+
+
